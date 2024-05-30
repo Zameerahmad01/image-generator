@@ -66,3 +66,24 @@
     border-radius: 50px;
     cursor: pointer;
 }
+
+.loading-bar{
+    height: 8px;
+    width: 0px;
+    background: darkcyan;
+}
+
+.loading-text{
+    font-size: 15px;
+}
+
+.loading-bar-full{
+    width: 350px;
+    height: 8px;
+    background: darkcyan;
+    transition: all 15s;
+}
+
+.display-none{
+    display: none;
+}
